@@ -1,0 +1,24 @@
+body{
+	color:#3C3C3B;
+}
+.parrafo1{
+	text-align: justify;
+	font-size: 18px;
+	font-weight: lighter;
+	height: 50%;
+	width: 50%;
+	margin-left: 25%;
+}
+.foto1{
+	height: 50%;
+	width: 80%;
+}
+.noticia{
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	
+	height: 50%;
+	width: 50%;
+	margin-left: 25%;	
+}

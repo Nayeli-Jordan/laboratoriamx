@@ -1,0 +1,104 @@
+h3{
+	text-align: center;
+	padding: 5% 0;
+}
+h4{
+	text-align: center;
+	padding: 0 0 2%;
+	color:#3C3C3B;
+}
+.pd-requisitos{
+	padding: 0 2%;
+}
+.transp{
+	width: 110%;
+	margin: 1% 0 0 -5%;
+	padding: 0 2% 5%;
+	background-color:#FAA819;
+	/*background: linear-gradient( 180deg, #FF8000, #FAAC58);        background-color: rgba(255, 0, 0, 0.5)*/
+	text-align: center;
+	color: black;
+	border-radius: 10px;
+}
+.programar{
+	color: #2E2E2E;
+}
+.bg-requisitos{
+	background-image: url(../img/bg/panal.jpg);
+	height: 100%;
+	background-position: 0 80%;
+}
+.img-requisitos{
+	background-image: url(../img/1.jpg);
+	height: 200px;
+	background-size: 80%;
+	background-position: 50%;
+	background-repeat: no-repeat;
+}
+.text-requisitos:hover{
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform : scale(1.2);
+	color:#FAA819;
+}
+.linea{
+	border-left: 1px solid #F1BF56; 
+	width:1px; 
+	height:40px;
+	margin-left: 2%;
+}
+.bg-info{
+	background-image: url(../img/bg/lineas1.png);
+	height: 100%;
+	background-size:100%;
+	background-repeat: no-repeat;
+	background-position: 0 80%;
+}
+.img-info{
+	height: 90px;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	margin-bottom: 3%;
+}
+.info1{
+	background-image: url(../img/evaluacion.png);
+	background-size:10%;
+}
+.info2{
+	background-image: url(../img/coder.png);
+	background-size:20%;
+}
+.info3{
+	background-image: url(../img/entrevista.png);
+	background-size:20%;
+}
+.fecha:hover{
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform : scale(1.2);
+	color: #FAA819;
+}
+.text-info:hover{
+	-webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	transform : scale(1.3);
+	-webkit-transition: 0.1s ease-out;
+	-moz-transition: 0.1s ease-out;
+	-o-transition: 0.1s ease-out;
+	-ms-transition: 0.1s ease-out;
+	transition:transform 0.1s ease-out;
+	color:#3C3C3B;
+}
+li{
+	list-style: none;
+	text-align: center;
+}
+.redesaplica{
+	background-size: 50%;
+	height: 80px;
+	background-repeat: no-repeat;
+	background-position: 50%;
+}

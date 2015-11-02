@@ -1,0 +1,24 @@
+h2{
+	padding-bottom: 5%;
+	text-align: center;
+	color: #3C3C3B;
+}
+p{
+	text-align: justify;
+	line-height:20px;				/*es la altura que tiene cada línea que forma el texto (espaciado entre lineas)*/
+}
+.img-equipo{								/*Caracteristicas iconos section equipo fundador y docente*/
+	background-size: 50%;
+	height:200px;
+	background-position: 50%;
+	background-repeat: no-repeat;
+}
+.bg-equipo5{
+	background-image: url(../img/docente/gris.png);
+}
+.bg-equipo6{
+	background-image: url(../img/docente/jac.png);
+}
+.bg-equipo7{
+	background-image: url(../img/docente/mili.png);
+}

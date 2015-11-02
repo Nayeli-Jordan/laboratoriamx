@@ -1,0 +1,315 @@
+.foto-fondo{
+	background-image:url("../img/bg/fondo1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height:620px;
+	margin-top: 7%;
+	padding-top: 30%;
+	color: black;
+}
+.claro-fondo{
+	width: 100%;
+	padding: 2% 0;
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	background-color:#FAA819;
+	opacity: 0.6;
+}
+.claro-fondo:hover{
+	opacity: 0.8;
+	-webkit-transition: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transition: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform : scale(1.1);
+}
+.text1{
+	padding: 1% 2%;
+	color: #3C3C3B;
+}
+.seguido{
+	display: flex; /*Para que los cuadros se pongan uno a lado del otro y no abajo*//*También para section programas*/
+}
+.contenedor{					/*También para section programas*/
+	width: 250px;
+	height: 180px;
+	margin: auto;
+	-webkit-perspective:500; /*Es la apertura que tiene el cuadro al girar, será más grande entre mas chico sea el número*/
+}
+.carta{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	transform-style: preserve-3d;
+	transition:1.5s; /*Tiempo que tarda en girar*/ /*También para section programas*/
+}
+.carta:hover{					/*También para section programas*/
+	transform:rotatey(180deg); /*Es la cantidad que gira la carta sobre su propio eje, necesita 180 para dar la esparda*/
+}
+.lado{
+	width: 100%;
+	height: 100%;
+	backface-visibility:hidden;/*oculta el lado de atrás*//*También para section programas*/
+	position: absolute;
+}
+.claro{
+	width: 100%;
+	padding: 2% 0;
+	background-color:white;
+	opacity: 0.9;
+}
+.frente{
+	background-size: 110%;
+	background-repeat: no-repeat;	
+	padding: 58% 5% 0;
+	text-align: center;
+	color: #3C3C3B;
+}
+.frente1{
+	background-image: url(../img/noticias/1.jpg);
+}
+.frente2{
+	background-image: url(../img/noticias/2.jpg);
+	background-position: 0 35%;
+}
+.frente3{
+	background-image: url(../img/noticias/3.jpg);
+}
+.frente4{
+	background-image: url(../img/noticias/4.jpg);
+	background-position: 0 35%;
+}
+.frente5{
+	background-image: url(../img/noticias/5.jpg);
+}
+.atras{
+	background: white;
+	transform: rotatey(180deg); /*Para que ambas cartas se den la espalda*/
+	padding: 20% 10%;
+	text-align: justify;
+	border: 1px solid #FAA819;
+}
+.fecha{
+	font-size: 10px;
+}
+.parrafo1{
+	text-align: center;
+	font-size: 18px;
+	font-weight: lighter;
+	color: #3C3C3B;
+	padding-bottom: 5%;
+}
+.foto{
+	width :64%;
+	height:64%;
+	margin-top: 10px;
+}
+.foto1{
+	width :64%;
+	height:64%;
+	margin-top: 10px;
+	margin-left: 15%;
+}
+.circulos{
+	width :74%;
+	height:74%;
+	margin-left: 10%;
+}
+.medidas2{
+	margin-top: -65px;
+}
+.mov{
+	margin-left: 55%;
+}
+.programas{
+	height: 150px;
+	background-size:80%;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	color: white;
+}
+.text-programas:hover{
+	color:black;
+}
+.html{
+	background-image: url(../img/html.png);
+}
+.css{
+	background-image: url(../img/css.png);
+}
+.js{
+	background-image: url(../img/js.png);
+}
+.contenedor-img{/*Contiene las imágenes de los programas*/
+	width: 150px;
+	height: 180px;
+	margin: auto;
+	-webkit-perspective:500; 
+}
+.frente-prog1{
+	background-color:white;	
+	padding:5%;
+	text-align: center;
+	color: black; 
+}
+.atras-prog1{
+	background-color: white;
+	transform: rotatey(180deg); /*Para que ambas cartas se den la espalda*/
+	padding: 45% 10%;
+	font-size: 12px;
+	text-align: justify;
+}
+.contenedor1{
+	width: 280px;
+	height: 100px;
+	margin: auto;
+	-webkit-perspective:500; /*Es la apertura que tiene el cuadro al girar, será más grande entre mas chico sea el número*/
+}
+.frente-prog{
+	background-color:white;	
+	padding:10%;
+	text-align: center;
+	color: black; 
+}
+.atras-prog{
+	background-color: white;
+	transform: rotatey(180deg); /*Para que ambas cartas se den la espalda*/
+	padding: 5%;
+	font-size: 12px;
+	text-align: justify;
+}
+.flecha-atras{
+	background-image: url(../img/vuelta.png);
+	background-repeat: no-repeat;
+	background-size: 5%;
+	height:15px;
+	padding-top: 5%;
+	background-position: 50%;
+	opacity: 0.5;
+}
+.bg-aliados{
+	background-image: url(../img/bg/c.jpg);
+	height: 100%;
+	background-size:100%;
+	padding-bottom: 5%;
+}
+.aliados{
+	height: 100px;
+	background-size:60%;
+	background-position: 50%;
+	background-repeat: no-repeat;
+}
+.aliados:hover{
+	-webkit-transition: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transition: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform : scale(1.1);
+	opacity: 0.5;
+}
+.logo1{
+	background-image: url(../img/aliados/1.png);
+}
+.logo2{
+	background-image: url(../img/aliados/2.png);
+}
+.logo3{
+	background-image: url(../img/aliados/3.png);
+}
+.logo4{
+	background-image: url(../img/aliados/4.png);
+}
+.logo5{
+	background-image: url(../img/aliados/5.png);
+}
+.logo6{
+	background-image: url(../img/aliados/6.png);
+}
+.logo7{
+	background-image: url(../img/aliados/7.png);
+}
+.logo8{
+	background-image: url(../img/aliados/8.png);
+}
+.logo9{
+	background-image: url(../img/aliados/9.png);
+}
+.logo10{
+	background-image: url(../img/aliados/10.png);
+}
+.logo11{
+	background-image: url(../img/aliados/11.png);
+}
+.logo12{
+	background-image: url(../img/aliados/12.png);
+}
+.logo13{
+	background-image: url(../img/aliados/13.png);
+}
+.logo14{
+	background-image: url(../img/aliados/14.png);
+}
+.logo15{
+	background-image: url(../img/aliados/15.png);
+}
+.logo16{
+	background-image: url(../img/aliados/16.png);
+}
+.logo17{
+	background-image: url(../img/aliados/17.png);
+}
+.logo18{
+	background-image: url(../img/aliados/18.png);
+}
+.logo19{
+	background-image: url(../img/aliados/19.png);
+}
+.logo20{
+	background-image: url(../img/aliados/20.png);
+}
+.logo21{
+	background-image: url(../img/aliados/21.png);
+}
+.logo22{
+	background-image: url(../img/aliados/22.png);
+}
+.logo23{
+	background-image: url(../img/aliados/23.png);
+}
+.logo24{
+	background-image: url(../img/aliados/24.png);
+}
+.parrafo{	
+	text-align: center;
+	color:#585858;
+}
+.edificio{
+    background-image: url(../img/edificio.jpg);
+    height: 320px;
+    background-size: 80%;
+    background-position: 50%;  
+    background-repeat: no-repeat;
+    color: rgba(255,255,255,0);
+}
+.edificio:hover{
+	background-size: 90%;
+	color: rgba(255,255,255,1);
+}
+.cuadro-mapa{
+	width: 90%;
+	margin-left: 5%;
+	height: 100%;
+	padding: 40% 0 0;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	background-color:rgba(60, 60, 59,0);
+}
+.cuadro-mapa:hover{
+	background-color:rgba(60, 60, 59,0.2);
+}
+iframe{
+	width: 80%;
+	height: 320px;
+}

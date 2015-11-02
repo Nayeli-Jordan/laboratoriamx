@@ -1,0 +1,31 @@
+.foto{
+	background-size: 55%;
+	height: 200px;
+	background-position: 50%;
+	background-repeat: no-repeat;
+}
+.bg-1{
+	background-image: url(../img/foco1.png);
+}
+.bg-2{
+	background-image: url(../img/compu1.png);
+}
+.bg-3{
+	background-image: url(../img/w1.png);
+}
+.parrafo{
+	font-size: 18px;
+	font-weight: lighter;
+}
+.parrafo1{	
+	font-size: 16px;
+}
+.ico{	
+	text-align: center;
+	margin-top: 50%;
+	font-size: 50px;
+	font-weight: bold;
+}
+.mg{
+	margin-left: -10%;
+}
